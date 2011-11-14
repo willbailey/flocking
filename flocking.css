@@ -1,0 +1,43 @@
+body {
+  background: #eee;
+}
+
+#sketch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background: #FFF;
+  border: 1px solid #eee;
+  -webkit-box-shadow: #666 0px 0px 5px;
+}
+
+.controls {
+  font-family: helvetica, arial, sans-serif;
+  width: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -250px;
+  padding:10px;
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+  .control {
+    position: relative;
+    padding: 5px;
+  }
+
+    .control input {
+      top: 7px;
+      position: absolute; 
+      width: 150px;
+      left: 90px;
+    }
